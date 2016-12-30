@@ -1,0 +1,7 @@
+[package]
+name = "simpledom"
+version = "0.1.0"
+authors = ["Jérôme BENOIS <jerome@benois.fr>"]
+
+[dependencies.jsx_to_simpledom]
+path = "../jsx_to_simpledom"

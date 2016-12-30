@@ -1,0 +1,19 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["Jérôme BENOIS <jerome@benois.fr>"]
+
+[dependencies]
+
+[dependencies.webplatform]
+git = "https://github.com/anowell/rust-webplatform.git"
+
+# [dependencies.quasar]
+# path = "../../../quasar"
+# default-features = false
+
+[dependencies.simpledom]
+path = "../../simpledom"
+
+[dependencies.jsx_to_simpledom]
+path = "../../jsx_to_simpledom"

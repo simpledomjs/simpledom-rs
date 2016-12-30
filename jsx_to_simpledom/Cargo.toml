@@ -1,0 +1,13 @@
+[package]
+name = "jsx_to_simpledom"
+version = "0.1.0"
+authors = ["Jérôme BENOIS <jerome@benois.fr>"]
+
+[lib]
+name="jsx_to_simpledom"
+crate-type = ["dylib"]
+plugin = true
+
+[dependencies]
+quote = "0.3.10"
+syn = "0.10.5"
